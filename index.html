@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .row {
+            margin-top: 25vh;
+        }
+        h6 {
+            margin-bottom: 4vh;
+            color: #1C315E;
+        }
+
+        .btn {
+            background-color: #1C315E;
+        }
+
+        input {
+            background-color: #1C315E;
+        }
+
+        .btn:hover {
+            background-color: #472183;
+        }
+    
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div id="message-show" class="card-panel hide">
+                <h1></h1>
+                <div>
+                    <a href="./index.html">Create your own secret Message</a>
+                </div>
+            </div>
+            <h6>Secret Message Sharing App</h6>
+            <div id="message_form" class="card-panel ">
+                <form action="">
+                    <label for="">Enter a secret Message</label>
+                    <input type="text" id="message_input">
+                    <button class="btn">Create</button>
+                </form>
+            </div>
+            <div id="link_form" class="card-panel hide">
+                <div>
+                    Share this Link with a Friend
+                    <input type="text" id="link_input">
+                </div>
+                </div>
+           
+        </div>
+    </div>
+
+   
+    <script src="index.js"></script>
+    
+</body>
+</html>
